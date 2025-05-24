@@ -1,0 +1,36 @@
+.hero-section {
+  flex: 1;
+  min-height: 480px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.hero-overlay {
+  background: rgba(21,101,192,0.55);
+  padding: 48px;
+  border-radius: 0 0 12px 0;
+  margin: 0 0 36px 36px;
+}
+
+.hero-overlay h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  line-height: 1.1;
+}
+
+.read-more {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}

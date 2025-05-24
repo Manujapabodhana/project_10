@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 0 36px;
+  height: 80px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 64px;
+  margin-right: 32px;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0 6px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buy-tickets {
+  background: #ffc107;
+  color: #222;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.live-btn {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lang-select {
+  margin-left: 12px;
+  color: #222;
+  font-size: 1rem;
+}

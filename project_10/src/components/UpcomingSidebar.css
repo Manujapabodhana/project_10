@@ -1,0 +1,53 @@
+.upcoming-sidebar {
+  width: 340px;
+  background: #0d47a1;
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 0 0 0 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.upcoming-sidebar h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.event-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.event-date,
+.event-location {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.clubs {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.club {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.club img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+}
